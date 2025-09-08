@@ -66,6 +66,7 @@ Controllers can authorize like this:
 ```php
 $this->authorize('update', $company);
 
+---
 ##  Quick Install
 
 ```bash
