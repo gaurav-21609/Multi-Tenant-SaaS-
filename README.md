@@ -66,5 +66,16 @@ Controllers can authorize like this:
 ```php
 $this->authorize('update', $company);
 
+##  Quick Install
+
+```bash
+git clone https://github.com/gaurav-21609/Multi-Tenant-SaaS.git \
+&& cd laravel-multitenant-saas \
+&& composer install \
+&& npm install && npm run build \
+&& cp .env.example .env \
+&& php artisan key:generate \
+&& php artisan migrate \
+&& php artisan serve
 
 
