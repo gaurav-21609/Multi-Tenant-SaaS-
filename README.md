@@ -73,7 +73,7 @@ $this->authorize('update', $company);
 
 ```bash
 git clone https://github.com/gaurav-21609/Multi-Tenant-SaaS.git \
-&& cd laravel-multitenant-saas \
+&& cd Multi-Tenant-SaaS \
 && composer install \
 && npm install && npm run build \
 && cp .env.example .env \
